@@ -1,0 +1,89 @@
+tcs_hackaton:
+    username:
+        - not_real_user
+    password:
+        - you_never_share_this_online
+    hostname:
+        - xxx_some_fun_broker_xxx.s2.eu.hivemq.cloud
+    device_name:
+        Fridge:
+            - Fridge_1
+            - Fridge_2
+            - Fridge_3
+        Garage_Door:
+            - Garage_Door_1
+            - Garage_Door_2
+            - Garage_Door_3
+        Motion_Light:
+            - Motion_Light_1
+            - Motion_Light_2
+            - Motion_Light_3
+        GPS_Locator:
+            - GPS_Locator_1
+            - GPS_Locator_2
+            - GPS_Locator_3
+        IoT_weather:
+            - IoT_weather_1
+            - IoT_weather_2
+            - IoT_weather_3
+    paths:
+        Fridge_1_collection: C:/some/fun/path/fridges/fridge_1_data_collection/
+        Fridge_1_send: C:/some/fun/path/fridges/fridge_1_data_send/
+        Fridge_2_collection: C:/some/fun/path/fridges/fridge_2_data_collection/
+        Fridge_2_send: C:/some/fun/path/fridges/fridge_2_data_send/
+        Fridge_3_collection: C:/some/fun/path/fridges/fridge_3_data_collection/
+        Fridge_3_send: C:/some/fun/path/fridges/fridge_3_data_send/
+        Garage_door_1_collection: C:/some/fun/path/garage_doors/garage_door_1_data_collection/
+        Garage_door_1_send: C:/some/fun/path/garage_doors/garage_door_1_data_send/
+        Garage_door_2_collection: C:/some/fun/path/garage_doors/garage_door_2_data_collection/
+        Garage_door_2_send: C:/some/fun/path/garage_doors/garage_door_2_data_send/
+        Garage_door_3_collection: C:/some/fun/path/garage_doors/garage_door_3_data_collection/
+        Garage_door_3_send: C:/some/fun/path/garage_doors/garage_door_3_data_send/
+        Motion_light_1_collection: C:/some/fun/path/motion_lights/motion_light_1_data_collection/
+        Motion_light_1_send: C:/some/fun/path/motion_lights/motion_light_1_data_send/
+        Motion_light_2_collection: C:/some/fun/path/motion_lights/motion_light_2_data_collection/
+        Motion_light_2_send: C:/some/fun/path/motion_lights/motion_light_2_data_send/
+        Motion_light_3_collection: C:/some/fun/path/motion_lights/motion_light_3_data_collection/
+        Motion_light_3_send: C:/some/fun/path/motion_lights/motion_light_3_data_send/
+        GPS_Locator_1_collection: C:/some/fun/path/gps_locators/gps_locator_1_data_collection/
+        GPS_Locator_1_send: C:/some/fun/path/gps_locators/gps_locator_1_data_send/
+        GPS_Locator_2_collection: C:/some/fun/path/gps_locators/gps_locator_2_data_collection/
+        GPS_Locator_2_send: C:/some/fun/path/gps_locators/gps_locator_2_data_send/
+        GPS_Locator_3_collection: C:/some/fun/path/gps_locators/gps_locator_3_data_collection/
+        GPS_Locator_3_send: C:/some/fun/path/gps_locators/gps_locator_3_data_send/
+        Iot_weather_1_collection: C:/some/fun/path/IoT_normal_weather/IoT_normal_weather_1_data_collection/
+        Iot_weather_1_send: C:/some/fun/path/IoT_normal_weather/IoT_normal_weather_1_data_send/
+        Iot_weather_2_collection: C:/some/fun/path/IoT_normal_weather/IoT_normal_weather_2_data_collection/
+        Iot_weather_2_send: C:/some/fun/path/IoT_normal_weather/IoT_normal_weather_2_data_send/
+        Iot_weather_3_collection: C:/some/fun/path/IoT_normal_weather/IoT_normal_weather_3_data_collection/
+        Iot_weather_3_send: C:/some/fun/path/IoT_normal_weather/IoT_normal_weather_3_data_send/
+    topic_type:
+        - encyclopedia/fridge_1 #0
+        - encyclopedia/fridge_2 #1
+        - encyclopedia/fridge_3 #2
+        - encyclopedia/garage_door_1 #3
+        - encyclopedia/garage_door_2 #4
+        - encyclopedia/garage_door_3 #5
+        - encyclopedia/motion_light_1 #6
+        - encyclopedia/motion_light_2 #7
+        - encyclopedia/motion_light_3 #8
+        - encyclopedia/modbus_1 #9
+        - encyclopedia/modbus_2 #10
+        - encyclopedia/modbus_3 #11
+        - encyclopedia/gps_locator_1 #12
+        - encyclopedia/gps_locator_2 #13
+        - encyclopedia/gps_locator_3 #14
+        - encyclopedia/thermostate_1 #15
+        - encyclopedia/thermostate_2 #16
+        - encyclopedia/thermostate_3 #17
+        - encyclopedia/thermometer_1 #18
+        - encyclopedia/thermometer_2 #19
+        - encyclopedia/thermometer_3 #20
+        - encyclopedia/iot_weather_1 #21
+        - encyclopedia/iot_weather_2 #22
+        - encyclopedia/iot_weather_3 #23
+    property_to_measure:
+        - Temperature
+        - State
+        - Weather
+        - location
